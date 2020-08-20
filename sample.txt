@@ -1,0 +1,61 @@
+HTML - hypertext markup language - used to display static text to the websites
+Why HTML -  1. to create web pages
+            2. widely used in web technologies
+            3. it is a markup language not a programing language
+Hypertext - 1. text within text
+            2. help us to link two or more web pages
+            3. click on link will take to new pages
+<!doctype html> - this tag tells us the language we write on this page which is html.
+<html> - starting point of out html code
+<head> - here we write the metadata for the pages, mostly for search engine
+<body> - this is where the content of the page goes - headers, paragraphs, images
+<title> - title of the html page
+
+HTML Element
+------------
+Defined by start tag, some content and end tag
+<html>content</html>
+<body>content</body>
+
+some element will have no end tag
+    <br> - empty element
+    <hr> - no content
+
+content inside the body will be displayed in web pages
+
+Features
+--------
+    1. simple and easy
+    2. platform independent (windows, MAC, linux)
+    3. case insensitive
+
+Building blocks of HTML
+-----------------------
+1. Tags
+2. Attribute - provides extra info abt the element
+<tag attribute-name="attribute-value"></tag>
+<body style="backgroundcolour:blue;"></body>
+
+Heading tag - <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+              <b></b> - whatever we write inside b will be bold
+              <li></li>
+              <u></u>
+Meta tags -  <doctype>, <title>, link, meta, style
+Text tags - <p>, <h1> to <h6>, <strong>
+Link tag - <a>
+Image tag - <image>
+List tag - <ul> <ol> <li>
+Table tag - <table> <tr> <td> <thead> <tbody>
+Form tags - form, input, select, textArea
+Script tag - <script>, <noscript>
+Mark tag - will highlight the text <mark>
+code - shows the code snippet
+small tag - defines the text smaller like copyright, side-comments
+sub - subscript
+sup - superscript
+del tag - used to identify text that has been deleted from document but retained to show the history of modification
+ins tag - defines a text that has been inserted into doc
+cite - defines the title of creative work(poem,song--)
+q - quotation
+abbr - abbreviation - here if we add title the title will be used as a tooltip
+&nbsp - to give space
