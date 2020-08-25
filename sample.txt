@@ -59,3 +59,98 @@ cite - defines the title of creative work(poem,song--)
 q - quotation
 abbr - abbreviation - here if we add title the title will be used as a tooltip
 &nbsp - to give space
+HTML CSS
+--------
+CSS- Cascading style sheet
+    - used to format the layout of webpage
+    - with CSS, you can control the font, colour, size of the text, element position, background, background images, background colours
+    - can be added to html in 3 ways
+        1. Inline - by using style attribute inside html element
+        2. Internal - by using <style> tag in <head> section
+        3. External - by using <link> element
+CSS colours, fonts, sizes
+-------------------------
+colour - defines the colour of the text
+font-family -> defines font to be used
+font-size -> size of your font
+border - defines border ofr all html elements
+padding - defines space between text and the border
+margin - defines the space between elements
+
+HTML forms
+----------
+required to collect some data from the user. eg. name, email, phone
+<form action="/user" method="get"> - action=endpoint
+    form elements
+</form>
+
+HTTP methods - GET,PUT,POST,DELETE (CRUD) create read update delete
+
+HTML form controls
+------------------
+1. Text input control - Single line input, PAssword iput, Multiline input
+2. Checkbox
+3. RAdiobox
+4. Selectbox
+5. File
+6. Hidden
+7. Clickable button
+8. Submit and Reset button
+
+Block level element and Inline element
+--------------------------------------
+1. Block level element occupies entire space of the parent (body). Always starts in a new line.
+
+Block level elements
+--------------------
+1. H1 to h6
+2. <table>
+3. <p>
+4. <div>
+5. <form>
+6. <video>
+7. <hr>
+8. <address>
+9. <header>
+10. <footer>
+
+Inline elements
+---------------
+1. <span>
+2. <a>
+3. <button>
+4. <sup>
+5. <sub>
+6. <textArea>
+7. <label>
+8. <b>
+9. <strong>
+10. <img>
+
+HTML DOM(Document object model)
+-------------------------------
+when page is loaded, browser creates a dom of the page
+usage: with HTML DOM javascript can access all the elements of TML document
+      - Javascript can add, remove, change all the HTML elements, HTML attributes, css styles in the page.
+      - Javascript can react to HTML events, can create new HTML
+video/Audio
+-----------
+will help to display video/audio in the page
+controls - the browser will offer controls to allow the the user to control audio,volume, pause/resume, playback
+autoplay -  the video will automatically begin playback as soon as it can
+muted - will mute the audio
+
+HTML Class
+----------
+this is an attribute used to specify a class for html element. multiple html elements can share same class.
+
+HTML Responsive
+---------------
+Responsive web design is about creating webpages that looks good on all devices.
+This will automatically adjust for diffent screen sizes or viewports.
+to create responsive website we need <meta> tag
+<meta name="viewport"content="width=device-width",initial scale 1.0">this will set the viewport of your page which will give browser instructions on how to control page dimensions and scaling.
+meta - element specify the character set, page description, keywords, author of the documnet and viewport settings.
+
+Semantic elements
+-----------------
